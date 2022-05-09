@@ -23,7 +23,7 @@ const Mapa = () => {
     });
     marker.current= new mapboxgl.Marker({ color: 'black'})
     .setLngLat([lng, lat]).setPopup(new mapboxgl.Popup().setHTML(
-`<h3>Estoy aquí</h3><p>hola a todos</p>`)).getPopup().addTo(map.current)
+`<h3>Estoy aquí</h3><p>hola a todos</p>`)).addTo(map.current)
     
   });
   
